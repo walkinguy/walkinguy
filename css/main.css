@@ -1,0 +1,83 @@
+/* Blue: #0079FC
+Yellow: #FBD911 */
+
+* {
+    font-family: Poppins, 'San-Serif';
+}
+
+.hero {
+    background-color: #FBD911;
+    padding: 0.5em 0 2em 0;
+    position: relative;
+}
+
+.fill-white {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(189deg) brightness(105%) contrast(105%);
+}
+
+.svg {
+    height: 20px;
+    width: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: calc(2em + 3vw);
+}
+.work-grid {
+    margin-top: 3em;
+}
+
+.btn-hollow {
+    background-color: transparent !important;
+    border: 1px solid #fff;
+}
+.btn-hollow:hover {
+    background-color: #FBD911 !important;
+    border: 1px solid #FBD911;
+    color: #000 !important;
+}
+
+.cta-btn {
+    margin-top: 5em;
+}
+
+.cta-section {
+}
+
+.nav-links a:hover {
+    background-color: #FBD911 !important;
+}
+
+.logo img{
+    margin-top: .2em;
+}
+
+.mdi-menu {
+    margin-left: -1em;
+}
+
+.work-grid img, .my-work img {
+    margin-top: 1em;
+}
+
+.navigation  nav {
+    margin: 1.5em 0 1.5em 0;
+}
+
+.my-work h1 {
+    width: 5.1em;
+    border-bottom: 0.3em solid #FBD911;
+}
+
+.subscribe h1 {
+    width: 7.1em;
+    border-bottom: 0.3em solid #FBD911;
+}
+
+.package {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2em 1em 2em 1em;
+}
