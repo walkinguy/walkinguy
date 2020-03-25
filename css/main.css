@@ -3,6 +3,9 @@ Yellow: #FBD911 */
 
 * {
     font-family: Poppins, 'San-Serif';
+}
+
+html {
     overflow-x: hidden;
 }
 
