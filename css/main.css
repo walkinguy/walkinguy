@@ -20,9 +20,14 @@ Yellow: #FBD911 */
     width: 20px;
 }
 
-.title {
+.title-main {
     font-weight: bold;
     font-size: calc(2em + 3vw);
+}
+
+.title {
+    font-weight: bold;
+    font-size: 2em;
 }
 .work-grid {
     margin-top: 3em;
@@ -39,7 +44,7 @@ Yellow: #FBD911 */
 }
 
 .cta-btn {
-    margin-top: 5em;
+    margin-top: 3.5em;
 }
 
 .cta-section {
@@ -65,12 +70,12 @@ Yellow: #FBD911 */
     margin: 1.5em 0 1.5em 0;
 }
 
-.my-work h1 {
+.my-work .title {
     width: 5.1em;
     border-bottom: 0.3em solid #FBD911;
 }
 
-.subscribe h1 {
+.subscribe .title {
     width: 7.1em;
     border-bottom: 0.3em solid #FBD911;
 }
@@ -79,5 +84,64 @@ Yellow: #FBD911 */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 2em 1em 2em 1em;
+    padding: 3em;
+    margin: 0;
 }
+
+.dollar-sign  {
+    font-size: 20px;
+}
+.digit {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.package .flow-text {
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.subscribe .row {
+    margin-top: 4em;
+}
+.price {
+    margin: 0;
+}
+
+.offer-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1.5em;
+}
+.offer-item img {
+    margin-right: 0.6em;
+}
+
+.my-work .responsive-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.pack-icon {
+    height: 6em;
+    align-self: center;
+    width: 6em;
+    object-fit: fill;
+}
+
+.package {
+    margin-bottom: 2em;
+}
+
+.sidenav {
+    padding: 2em 0 2em 1em;
+}
+
+.book .btn-floating {
+    top: 0;
+}
+
+
