@@ -3,6 +3,7 @@ Yellow: #FBD911 */
 
 * {
     font-family: Poppins, 'San-Serif';
+    overflow-x: hidden;
 }
 
 .hero {
