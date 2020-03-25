@@ -5,10 +5,6 @@ Yellow: #FBD911 */
     font-family: Poppins, 'San-Serif';
 }
 
-html {
-    overflow-x: hidden;
-}
-
 .hero {
     background-color: #FBD911;
     padding: 0.5em 0 2em 0;
@@ -52,8 +48,6 @@ html {
 .cta-btn {
     margin-top: 3.5em;
 }
-
-.cta-section {}
 
 .nav-links a:hover {
     background-color: #FBD911 !important;
@@ -198,9 +192,11 @@ html {
     margin-top: 3em;
 }
 
+.contact-form {
+    width: 90%;
+}
 
-@media only screen and (min-width: 993px) {
-    .contact-section .book {
-        padding-right: 5em !important;
-    }
-} 
+.ico {
+    width: 1em;
+    padding-top: 0.2em;
+}
