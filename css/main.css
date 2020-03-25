@@ -29,6 +29,7 @@ Yellow: #FBD911 */
     font-weight: bold;
     font-size: 2em;
 }
+
 .work-grid {
     margin-top: 3em;
 }
@@ -37,6 +38,7 @@ Yellow: #FBD911 */
     background-color: transparent !important;
     border: 1px solid #fff;
 }
+
 .btn-hollow:hover {
     background-color: #FBD911 !important;
     border: 1px solid #FBD911;
@@ -47,14 +49,13 @@ Yellow: #FBD911 */
     margin-top: 3.5em;
 }
 
-.cta-section {
-}
+.cta-section {}
 
 .nav-links a:hover {
     background-color: #FBD911 !important;
 }
 
-.logo img{
+.logo img {
     margin-top: .2em;
 }
 
@@ -62,11 +63,12 @@ Yellow: #FBD911 */
     margin-left: -1em;
 }
 
-.work-grid img, .my-work img {
+.work-grid img,
+.my-work img {
     margin-top: 1em;
 }
 
-.navigation  nav {
+.navigation nav {
     margin: 1.5em 0 1.5em 0;
 }
 
@@ -88,9 +90,10 @@ Yellow: #FBD911 */
     margin: 0;
 }
 
-.dollar-sign  {
+.dollar-sign {
     font-size: 20px;
 }
+
 .digit {
     font-size: 1em;
     font-weight: bold;
@@ -105,6 +108,7 @@ Yellow: #FBD911 */
 .subscribe .row {
     margin-top: 4em;
 }
+
 .price {
     margin: 0;
 }
@@ -115,6 +119,7 @@ Yellow: #FBD911 */
     align-items: center;
     margin-top: 1.5em;
 }
+
 .offer-item img {
     margin-right: 0.6em;
 }
@@ -140,8 +145,58 @@ Yellow: #FBD911 */
     padding: 2em 0 2em 1em;
 }
 
+.book {
+    position: relative;
+}
+
 .book .btn-floating {
-    top: 0;
+    position: absolute;
+    bottom: 5%;
+    right: 8%;
+}
+
+.book .btn-floating img {
+    margin-top: 1em;
+    height: 1.4em;
+    width: auto;
+}
+
+.page-footer {
+    padding: 2em 0;
+    margin-top: 4em;
+}
+
+/* label focus color */
+.input-field input:focus+label, .input-field textarea:focus+label {
+    color: #0079FC !important;
+}
+
+/* label underline focus color */
+.input-field input:focus, .input-field textarea:focus {
+    border-bottom: 1px solid #0079FC !important;
+    box-shadow: 0 1px 0 0 #0079FC !important;
+}
+/* prefix focus color */
+.input-field .prefix.active {
+    color: #0079FC;
 }
 
 
+.contact-form .input-field {
+    margin-top: 6em;
+}
+
+.contact-form .input-field:first-child {
+    margin-top: 1em !important;
+}
+
+.contact-form button {
+    margin-top: 3em;
+}
+
+
+@media only screen and (min-width: 993px) {
+    .contact-section .book {
+        padding-right: 5em !important;
+    }
+} 

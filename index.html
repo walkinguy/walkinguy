@@ -75,12 +75,21 @@
                     </div>
                 </div>
                 <div class="fixed-action-btn">
-                    <a class="btn-floating btn-large yellow accent-4 waves-effect waves-light z-depth-5">
+                    <a
+                        class="btn-floating click-to-toggle btn-large yellow accent-4 waves-effect waves-light z-depth-5">
                         <i><img src="img/palette.svg" class="svg"></i>
                     </a>
                     <ul>
-                        <li><a class="btn-floating blue accent-4 waves-effect"><i class="mdi mdi-phone"></i></a></li>
-                        <li><a class="btn-floating blue accent-4 waves-effect"><i class="mdi mdi-briefcase"></i></a>
+                        <li><a href="" class="btn-floating green waves-effect" target="_blank"><i
+                                    class="mdi mdi-phone"></i></a>
+                        <li><a href="#" class="btn-floating light-blue waves-effect" target="_blank"><i><img
+                                        src="img/twitter.svg" class="svg"></i></a>
+                        <li><a href="https://instagram.com/sumanstudios" class="btn-floating pink darken-3 waves-effect"
+                                target="_blank"><i><img src="img/instagram.svg" class="svg"></i></a>
+                        <li><a href="https://youtube.com/godonthabeat" class="btn-floating red waves-effect"
+                                target="_blank"><i><img src="img/youtube.svg" class="svg"></i></a>
+                        <li><a href="https://facebook.com/sumanstudios " class="btn-floating blue darken-2 waves-effect"
+                                target="_blank"><i><img src="img/facebook.svg" class="svg fill-white"></i></a></li>
                         </li>
                     </ul>
                 </div>
@@ -256,18 +265,47 @@
     <div class="container">
         <div class="contact-section">
             <div class="row">
-                <div class="col s12 m6 l6 book">
+                <div class="col s12 m12 l6 book">
                     <h1 class="title">Design Book</h1>
-                    <p>For learners.</p>
-                    <img src="img/book.png" class="responsive-img materialboxed">
-                    <a class="btn-floating btn-large waves-effect waves-light red"></a>
+                    <img src="img/book.png" class="responsive-img">
+                    <a class="btn-floating btn-large waves-effect waves-light yellow accent-3 black-text"
+                        href="img/book.png" download><img src="img/download.svg" alt=""></a>
                 </div>
-                <div class="col s12 m6 l6">
-
+                <div class="col s12 m12 l6 contact-me">
+                    <div class="row">
+                        <div class="col s12">
+                            <h1 class="title">Contact Me</h1>
+                        </div>
+                    </div>
+                    <form action="#" class="contact-form">
+                        <div class="input-field">
+                            <span class="mdi mdi-account-circle prefix"></span>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">First Name</label>
+                        </div>
+                        <div class="input-field">
+                            <span class="mdi mdi-email prefix"></span>
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-field">
+                            <span class="mdi mdi-pencil prefix"></span>
+                            <textarea id="textarea2" class="materialize-textarea"></textarea>
+                            <label for="icon_prefix2">Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-large right blue accent-4 waves-effect waves-light">
+                            Send Message
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
+    <footer class="page-footer blue accent-4">
+        <div class="container center">
+            Copyrights Reserved © SumanStudios &reg;
+        </div>
+    </footer>
 
     <!-- The jQuery file path -->
     <script src="js/jquery.min.js"></script>
